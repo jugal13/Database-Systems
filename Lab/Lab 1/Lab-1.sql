@@ -15,7 +15,7 @@ super_ssn CHAR(9),
 dno INT NOT NULL,
 PRIMARY KEY (ssn),
 FOREIGN KEY (super_ssn) REFERENCES Employee(ssn));
--- FOREIGN KEY (dno) REFERENCES DEPARTMENT(dnumber) );ssssss
+-- FOREIGN KEY (dno) REFERENCES DEPARTMENT(dnumber) );
 
 CREATE TABLE Department
 ( dname VARCHAR(15) NOT NULL,
