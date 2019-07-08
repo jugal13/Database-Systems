@@ -1,5 +1,8 @@
 # Database Systems
 
+## Note:
+    JS extension only to highlight the terms in mongodb commands
+
 ## Lab 
 
 ### Lab 1
